@@ -1,2 +1,2 @@
 # FPS ISOMETRIC
- just for learning purpses
+ just for learning purposes
