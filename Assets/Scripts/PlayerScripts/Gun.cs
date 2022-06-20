@@ -14,10 +14,7 @@ public class Gun : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            for (int i = 0; i < 1; i++)
-            {
-                Instantiate(projectile, olusumNoktasi.transform.position, transform.rotation);
-            }
+            Instantiate(projectile, olusumNoktasi.transform.position, transform.rotation);
         }
     }
 }
