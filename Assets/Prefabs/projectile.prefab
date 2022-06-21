@@ -301,7 +301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammo: {fileID: 1101673707243031907}
   particleEffect: {fileID: 8230494695230566140, guid: 592ec484574a0804e87f2f6cdc3f686c, type: 3}
-  launchForce: 55
+  launchForce: 100
   olusumNoktasi: {fileID: 0}
   projectileAudio: {fileID: 4086342991421594480, guid: 07a35545efd119d42995d3ebe4cb07f5, type: 3}
 --- !u!54 &-409002296842645159
@@ -319,7 +319,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!82 &-2794994019394282344
 AudioSource:
   m_ObjectHideFlags: 0
