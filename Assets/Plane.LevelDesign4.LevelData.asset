@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670ad16e6abf4aa4b9b9c6bb5ea81170, type: 3}
+  m_Name: Plane.LevelDesign4.LevelData
+  m_EditorClassIdentifier: 
+  levelData:
+    prefabGUID: 962ea8010e5750245b8c7291cc0b1e75
+    mainSet: {fileID: 11400000, guid: 5c68f49ae842d3c44841737380909fb8, type: 2}
+    objectsSet: {fileID: 11400000, guid: 338340c5f485df24cb45c8831b969b62, type: 2}
+    optionsSettings:
+      moveSnap: 1
+      rotationSnap: 22.5
+      wallsManipulatorsHeight: 1
+      hoverResponsiveHandles: 1
+    visibilitySettings:
+      movement: 1
+      rotation: 1
+      walls: 1
+      wallsMovement: 1
+      wallsRotation: 1
+      wings: 1
+      wingsGrowth: 1
+      wingsLines: 1
+      objects: 1
+      floors: 1
+      hidden: 0
+    wallsData:
+    - simpleObjectData:
+        fileID: 7417792887638589019
+      type: 0
+      wingsData:
+      - growDirection: {x: 0, y: 0, z: 1}
+        chainFileIDs: 2cff184b88fcec5d03679bc2d8996109d25a77244ee5f2739a9054e8f786062ace5ae4c261ee33070836e4c071639057707bdd68b9a6e7530fd3840ddb38d937
+        capFileID: 4052359060842603420
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: 488766026933766086
+    - simpleObjectData:
+        fileID: 9154063900280605405
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: 
+        capFileID: 3712630417944073114
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: 7977605207524458096
+    - simpleObjectData:
+        fileID: 7552905715322015968
+      type: 0
+      wingsData:
+      - growDirection: {x: 0, y: 0, z: 1}
+        chainFileIDs: f80801f55743eb7583db077139c64d5f
+        capFileID: 513782316091885947
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 9316f408a91db42ed84c79b0e024803fe37f754601787535b0983a52c3dab7739053c571ac794a478cee23ea83d0b237
+        capFileID: 2419038016998080702
+    - simpleObjectData:
+        fileID: 6846015237579443122
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: 
+        capFileID: 4642124222429427
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: 1230933404212045585
+    - simpleObjectData:
+        fileID: 8434017529373073396
+      type: 0
+      wingsData:
+      - growDirection: {x: 0, y: 0, z: 1}
+        chainFileIDs: 
+        capFileID: 7728888646494831718
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: 8906578093869258192
+    simpleObjectsData: []
+    floorsData: []
