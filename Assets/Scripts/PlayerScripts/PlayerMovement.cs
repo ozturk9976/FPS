@@ -4,12 +4,21 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    Rigidbody rb;
     public float speed = 5f;
     public float turningSpeed = 25f;
+    public float jumpHeight = 5f;
+    public Vector3 jump;
 
-    void Start() { }
+    void Start()
+    {
+        jump = new Vector3(0.0f, 4.0f, 0.0f);
+        rb = GetComponent<Rigidbody>();
+    }
 
-    void Update()
+    void Update() { }
+
+    void FixedUpdate()
     {
         float dikeyInput = Input.GetAxis("Vertical");
         float yatayInput = Input.GetAxis("Horizontal");
@@ -22,6 +31,10 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.N))
         {
             transform.Rotate(Vector3.down * turningSpeed * Time.deltaTime);
+        }
+        if (Input.GetButtonDown("Jump"))
+        {
+            rb.AddForce(jump * jumpHeight, ForceMode.Impulse);
         }
     }
 }

@@ -24,7 +24,7 @@ public class Projectile : MonoBehaviour
 
     void Update() { }
 
-    void OnCollisionEnter(Collider col)
+    void OnCollisionEnter(Collision col)
     {
         if (col.gameObject.tag.Equals("Thing"))
         {

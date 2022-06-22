@@ -227,7 +227,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.005
+  m_Time: 0.004
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -235,8 +235,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.06722641
-        value: 0.03797531
+        time: 0.071186066
+        value: 0.050899506
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammo: {fileID: 1101673707243031907}
   particleEffect: {fileID: 8230494695230566140, guid: 592ec484574a0804e87f2f6cdc3f686c, type: 3}
-  launchForce: 100
+  launchForce: 150
   olusumNoktasi: {fileID: 0}
   projectileAudio: {fileID: 4086342991421594480, guid: 07a35545efd119d42995d3ebe4cb07f5, type: 3}
 --- !u!54 &-409002296842645159
@@ -312,7 +312,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101673707243031907}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
